@@ -1,5 +1,4 @@
 ﻿using BookShop.Models;
-using BookShop.Models.ViewModels;
 
 namespace BookShop.DataAccess.Repository.IRepository.IRepository
 {

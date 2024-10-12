@@ -2,7 +2,6 @@
 using BookShop.DataAccess.Repository.IRepository;
 using BookShop.DataAccess.Repository.IRepository.IRepository;
 using BookShop.Models;
-using BookShop.Models.ViewModels;
 using System.Linq.Expressions;
 
 namespace BookShop.DataAccess.Repository

@@ -36,7 +36,7 @@ namespace BookShop.Areas.Customer.Controllers
 				OrderHeader = new()
 			};
 			IEnumerable<ProductImage> productImages = _unitOfWork.ProductImage.GetAll();
-
+			//instead of include item then include ItemImage we populate the ItemImages from the Db
 			foreach (var cart in ShoppingCartVM.ShoppingCartList)
 			{
 				cart.Product.ProductImages = productImages.Where(u => u.ProductId == cart.Product.Id).ToList();

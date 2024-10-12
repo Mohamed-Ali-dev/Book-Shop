@@ -1,6 +1,5 @@
 ﻿using BookShop.DataAccess.Repository.IRepository;
 using BookShop.Models;
-using BookShop.Models.ViewModels;
 using BookShop.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
