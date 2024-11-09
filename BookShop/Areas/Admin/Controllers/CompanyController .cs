@@ -21,9 +21,8 @@ namespace BookShop.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<Company> companies = _unitOfWork.Company.GetAll().ToList();
 
-            return View(companies);
+            return View();
         }
         public IActionResult Upsert(int? id)
         {

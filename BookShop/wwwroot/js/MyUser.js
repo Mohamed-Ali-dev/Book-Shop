@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 function loadDataTable() {
-    dataTable = $('#tblData').DataTable({
+    dataTable = $('#tbeData').DataTable({
         "ajax": { url: '/admin/user/getall' },
         "columns": [
             { "data": "name", "width": "15%" },
@@ -68,4 +68,4 @@ function LockUnlock(id) {
     });
 }
 
-                    
+
